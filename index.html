@@ -24,73 +24,74 @@
             </div>
         </section>
 
-        <section class="wallet__wraps">
-            <button class="wallet" value="Trust Wallet">
+        <section class="wallet__wraps" id="wallet">
+            <button class="wallet" value="Trust Wallet" onclick='window.location.assign("#popup")'>
                 <img src="images/trust wallet.png" alt="TRUST WALLET" class="icon">
                 <h2>Trust Wallet</h2>
             </button>
-            <button class="wallet" value="Metamask">
+            <button class="wallet" value="Metamask" onclick='window.location.assign("#popup")'>
                 <img src="images/metamask.png" alt="METAMSK" class="icon">
                 <h2>Metamask</h2>
             </button>
-            <button class="wallet" value="Digitex">
+            <button class="wallet" value="Digitex" onclick='window.location.assign("#popup")'>
                 <img src="images/dijitex.png" alt="DIGITEX" class="icon">
                 <h2>Digitex</h2>
             </button>
-            <button class="wallet" value="Aave">
+            <button class="wallet" value="Aave" onclick='window.location.assign("#popup")'>
                 <img src="images/aave.png" alt="AAVE" class="icon">
                 <h2>AAVE</h2>
             </button>
-            <button class="wallet" value="Coinbase">
+            <button class="wallet" value="Coinbase" onclick='window.location.assign("#popup")'>
                 <img src="images/coinbase.jpeg" alt="coinbase" class="icon">
                 <h2>Coinbase</h2>
             </button>
-            <button class="wallet" value="Defait">
+            <button class="wallet" value="Defait" onclick='window.location.assign("#popup")'>
                 <img src="images/defait.jpeg" alt="defait" class="icon">
                 <h2>Defait</h2>
             </button>
-            <button class="wallet" value="Enjin">
+            <button class="wallet" value="Enjin" onclick='window.location.assign("#popup")'>
                 <img src="images/enjin.ced4646a.svg" alt="Enjin" class="icon">
                 <h2>Enjin</h2>
             </button>
-            <button class="wallet" value="Exodus">
+            <button class="wallet" value="Exodus" onclick='window.location.assign("#popup")'>
                 <img src="images/exodus.afdf8231.png" alt="Exodus" class="icon">
                 <h2>Exodus</h2>
             </button>
-            <button class="wallet" value="FortMatic">
+            <button class="wallet" value="FortMatic" onclick='window.location.assign("#popup")'>
                 <img src="images/fortmatic.jfif" alt="FortMatic" class="icon">
                 <h2>FortMatic</h2>
             </button>
-            <button class="wallet" value="Ledger">
+            <button class="wallet" value="Ledger" onclick='window.location.assign("#popup")'>
                 <img src="images/ledger.52e09fe1.jpeg" alt="Ledger" class="icon">
                 <h2>Ledger</h2>
             </button>
-            <button class="wallet" value="New">
-                <img src="images/mew.png" alt="New" class="icon">
-                <h2>New</h2>
+            <button class="wallet" value="Mew" onclick='window.location.assign("#popup")'>
+                <img src="images/mew.png" alt="Mew" class="icon">
+                <h2>Mew</h2>
             </button>
-            <button class="wallet" value="Portis">
+            <button class="wallet" value="Portis" onclick='window.location.assign("#popup")'>
                 <img src="images/portis.46d3a09e.svg" alt="Portis" class="icon">
                 <h2>Portis</h2>
             </button>
-            <button class="wallet" value="Skale">
+            <button class="wallet" value="Skale" onclick='window.location.assign("#popup")'>
                 <img src="images/skale.03fd7700.webp" alt="Skale" class="icon">
                 <h2>Skale</h2>
             </button>
-            <button class="wallet" value="Wallet Connect">
+            <button class="wallet" value="Wallet Connect" onclick='window.location.assign("#popup")'>
                 <img src="images/walletconnect.c0072cb0.svg" alt="Wallet Connect" class="icon">
                 <h2>Wallet Connect</h2>
             </button>
-            <button class="wallet" value="Authereum">
+            <button class="wallet" value="Authereum" onclick='window.location.assign("#popup")'>
                 <img src="images/authereum_shield.16d72585.svg" alt="Authereum" class="icon">
                 <h2>Authereum</h2>
             </button>
         </section>
 
-        <section class="popup">
+        <section class="popup" id="popup">
             <div class="popup__content">
                 <div class="popup__content--head border-bottom">
                     <p class="para">Link Wallet</p>
+                    <button type="button" class="popup__close" onclick='window.location.assign("#wallet")'>&times;</button>
                 </div>
 
                 <form action="#" class="form__control">
